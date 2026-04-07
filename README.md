@@ -50,7 +50,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Cards: Custo Anual Gasolina, Custo Anual Etanol, Custo KM utilizando Etanol e Custo KM utilizando Gasolina e KM rodado por frota
 - Filtros: Estado, Cidade, Ano
 
-![Dashboard Simulador](assets/simulação .png)
+![Dashboard Simulador](assets/simulador anp.png)
 
 ---
 
