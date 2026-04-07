@@ -43,7 +43,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 ### 🚗 Simulador
 - Simulação de custo anual de frota com gasolina vs etanol
 - Parâmetros configuráveis: quantidade de carros e km/mês
-- Cards: Custo Anual Gasolina, Custo Anual Etanol, Melhor Estratégia
+- Cards: Custo Anual Gasolina, Custo Anual Etanol, Custo KM utilizando Etanol e Custo KM utilizando Gasolina e KM rodado por frota
 
 ---
 
@@ -92,11 +92,8 @@ Construção de dashboards interativos para análise de preços de combustíveis
 ## 💡 Principais Insights
 
 - **Norte e Nordeste** concentram os estados com combustível mais caro 
-  — reflexo dos custos logísticos de distribuição
-- O etanol foi vantajoso em apenas **algumas regiões** de forma 
-  consistente — especialmente Centro-Oeste, maior produtor de cana
-- A gasolina registrou alta expressiva a partir de **2025**, ampliando 
-  a vantagem do etanol em regiões produtoras
+  — reflexo dos custos logísticos de distribuição, privatização de refinarias e baixa capacidade local de refino
+- Na cidade de São Paulo (assim como diversas outras cidades do estado de São Paulo) nos anos de 2024 e 2025, a escolha por etanol era a mais econômica para os motoristas devido a vantagem na comparação de paridade entre etanol e gasolina, isso se dá pela alta concentração de usinas produtoras de etanol no estado, assim como baixos custos logísticos de transporte do combustível.
 - Uma frota de **500 veículos** rodando **2.000 km/mês** pode gerar 
   diferença de custo anual de até **R$ 1,5 milhão** entre os 
   combustíveis dependendo da região
