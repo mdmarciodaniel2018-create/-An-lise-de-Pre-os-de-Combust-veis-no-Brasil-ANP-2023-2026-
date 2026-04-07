@@ -1,0 +1,69 @@
+# 🛢️ ANP Fuel Analysis Dashboard
+
+> Análise interativa de preços de combustíveis no Brasil com dados da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)
+
+![ANP](https://img.shields.io/badge/Fonte-ANP-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto tem como objetivo analisar e visualizar os preços de combustíveis no Brasil utilizando dados oficiais da ANP. O dashboard é dividido em três módulos principais: visão geral nacional, paridade etanol/gasolina e simulador de frota.
+
+---
+
+## 📊 Dashboards
+
+### 🏠 Início — Visão Geral Nacional
+
+![Dashboard Início](assets/dashboard-inicio.png)
+
+> Top 10 estados e cidades com combustível mais caro do Brasil + variação histórica de preços (2023–2026)
+
+---
+
+### ⚖️ Paridade Etanol/Gasolina
+
+![Dashboard Paridade](assets/dashboard-paridade.png)
+
+> Comparativo de preços médios e paridade etanol/gasolina por estado, cidade e período. Indica quando o etanol é vantajoso em relação à gasolina (abaixo de 70%).
+
+---
+
+### 🚌 Simulador de Frota
+
+![Dashboard Simulador](assets/dashboard-simulador.png)
+
+> Simulação de custo anual para frotas com base na quantidade de veículos, km rodados por mês e preços regionais de gasolina e etanol.
+
+---
+
+## 🚀 Funcionalidades
+
+- 📍 Filtro por **Região, Estado e Cidade**
+- 📅 Filtro por **Data, Ano e Mês**
+- ⛽ Filtro por **tipo de combustível**
+- 📈 Gráfico de variação histórica de preços (2023–2026)
+- ⚖️ Cálculo de **paridade etanol/gasolina** por localidade
+- 🚗 **Simulador de frota** com custo por KM e custo anual
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Power BI / (ou a ferramenta que você usou)
+- Dados oficiais da [ANP](https://www.gov.br/anp)
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+📁 seu-repositório/
+├── 📁 assets/
+│   ├── dashboard-inicio.png
+│   ├── dashboard-paridade.png
+│   └── dashboard-simulador.png
+├── README.md
+└── ...
