@@ -48,3 +48,66 @@ sobre preços de combustíveis, respondendo perguntas como:
 ---
 
 ## 🔄 Pipeline de Dados
+ANP via Base dos Dados (BigQuery)
+↓
+SQL (extração e agregação)
+↓
+Power Query (limpeza e tipagem)
+↓
+DAX (medidas e cálculos)
+↓
+Dashboard Power BI (3 páginas)
+
+## 🛠️ Tecnologias Utilizadas
+
+SQL & BigQuery (Camada de Dados)
+A extração e o tratamento inicial foram realizados via Google BigQuery, utilizando SQL para otimizar o volume de dados transferidos para o Power BI. As principais técnicas aplicadas foram:
+
+CTE (Common Table Expressions): Utilizadas para organizar consultas complexas e melhorar a legibilidade (como na análise de paridade).
+
+Agregações e Pivotagem: Transformação de linhas em colunas (CASE WHEN + GROUP BY) para comparar preços de Gasolina e Etanol lado a lado.
+
+Lógica de Negócio em SQL: * Cálculo de Razão de Paridade (Etanol vs. Gasolina) diretamente na query.
+
+Criação de KPIs de Margem Bruta Estimada.
+
+Tratamento de valores nulos com COALESCE e normalização de textos com UPPER.
+
+Joins com Diretórios: Enriquecimento dos dados brutos com tabelas de diretórios oficiais (IBGE) para obter nomes de municípios e estados.
+
+Filtros Temporais Dinâmicos: Uso de DATE_SUB e CURRENT_DATE para garantir que o dashboard exiba sempre os últimos 2 a 3 anos de dados de forma automática.
+
+Power Query & M (ETL e Modelagem)
+No Power BI, utilizei a linguagem M para os ajustes finais de tipagem e enriquecimento regional:
+
+Value.NativeQuery: Implementação de SQL nativo com suporte a Query Folding, garantindo que o processamento pesado ocorra no servidor do BigQuery.
+
+Lógica Condicional: Criação de colunas personalizadas para categorização de Regiões Brasileiras (Norte, Nordeste, Sudeste, etc.).
+
+Tipagem de Dados: Garantia de integridade para valores financeiros (Currency.Type) e datas.
+
+Power BI (Visualização)
+Construção de dashboards interativos para análise de preços de combustíveis (ANP).
+
+## 💡 Principais Insights
+
+- **Norte e Nordeste** concentram os estados com combustível mais caro 
+  — reflexo dos custos logísticos de distribuição
+- O etanol foi vantajoso em apenas **algumas regiões** de forma 
+  consistente — especialmente Centro-Oeste, maior produtor de cana
+- A gasolina registrou alta expressiva a partir de **2025**, ampliando 
+  a vantagem do etanol em regiões produtoras
+- Uma frota de **500 veículos** rodando **2.000 km/mês** pode gerar 
+  diferença de custo anual de até **R$ 1,5 milhão** entre os 
+  combustíveis dependendo da região
+
+  ## 📊 Fonte dos Dados
+
+**Base dos Dados** — `basedosdados.br_anp_precos_combustiveis.microdados`
+
+Dados originais da **ANP — Agência Nacional do Petróleo, Gás Natural 
+e Biocombustíveis**, coletados em postos revendedores fiscalizados em 
+todo o Brasil.
+
+🔗 [Base dos Dados](https://basedosdados.org)  
+🔗 [ANP](https://www.gov.br/anp)
