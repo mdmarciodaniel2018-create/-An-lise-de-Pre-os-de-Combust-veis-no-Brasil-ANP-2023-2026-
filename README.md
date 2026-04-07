@@ -33,7 +33,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Top 10 cidades com combustível mais caro
 - Variação do preço dos combustíveis (2023–2026)
 - Filtros: Região, Combustível, Data
-- ### 🏠 Início — Visão Geral Nacional
+
 ![Dashboard Início](assets/dashboard-inicio.png)
 
 ### ⚖️ Paridade
@@ -41,14 +41,14 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Linha de referência em 70% — limiar de vantagem do etanol
 - Cards: Média Gasolina, Média Etanol, Status de Vantagem
 - Filtros: Estado, Cidade, Ano, Mês
-- ### ⚖️ Paridade Etanol/Gasolina
+  
 ![Dashboard Paridade](assets/dashboard-paridade.png)
 
 ### 🚗 Simulador
 - Simulação de custo anual de frota com gasolina vs etanol
 - Parâmetros configuráveis: quantidade de carros e km/mês
 - Cards: Custo Anual Gasolina, Custo Anual Etanol, Custo KM utilizando Etanol e Custo KM utilizando Gasolina e KM rodado por frota
-- ### 🚌 Simulador de Frota
+
 ![Dashboard Simulador](assets/dashboard-simulador.png)
 
 ---
