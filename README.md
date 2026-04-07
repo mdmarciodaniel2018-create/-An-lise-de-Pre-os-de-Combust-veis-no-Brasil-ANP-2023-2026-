@@ -39,15 +39,10 @@ sobre preços de combustíveis, respondendo perguntas como:
 ### ⚖️ Paridade
 - Análise da relação preço etanol vs gasolina mês a mês
 - Linha de referência em 70% — limiar de vantagem do etanol
-- O que é paridade etanol/gasolina
-É uma conta simples que responde: qual combustível é mais barato para rodar?
-Como o etanol rende menos por litro que a gasolina, o carro precisa de mais etanol para percorrer a mesma distância. A regra geral é:
+- Paridade etanol/gasolina é uma conta simples que responde: qual combustível é mais barato para rodar?
+- Como o etanol rende menos por litro que a gasolina, o carro precisa de mais etanol para percorrer a mesma distância.
+- A regra geral é: Se o preço do etanol for menor que 70% do preço da gasolina → etanol é mais barato. Se for maior que 70% → gasolina compensa mais.
 
-Se o preço do etanol for menor que 70% do preço da gasolina → etanol é mais barato. Se for maior que 70% → gasolina compensa mais.
-
-Exemplo prático:
-ValorGasolinaR$ 6,1370% da gasolinaR$ 4,29EtanolR$ 4,13
-Como R$ 4,13 está abaixo de R$ 4,29 → o etanol compensa nesse caso.
 - Cards: Média Gasolina, Média Etanol, Status de Vantagem
 - Filtros: Estado, Cidade, Ano, Mês
   
