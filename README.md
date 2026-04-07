@@ -48,6 +48,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Simulação de custo anual de frota com gasolina vs etanol
 - Parâmetros configuráveis: quantidade de carros e km/mês
 - Cards: Custo Anual Gasolina, Custo Anual Etanol, Custo KM utilizando Etanol e Custo KM utilizando Gasolina e KM rodado por frota
+- Filtros: Estado, Cidade, Ano
 
 ![Dashboard Simulador](assets/dashboard-simulador.png)
 
