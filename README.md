@@ -42,7 +42,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Cards: Média Gasolina, Média Etanol, Status de Vantagem
 - Filtros: Estado, Cidade, Ano, Mês
   
-![Dashboard Paridade](assets/dashboard-paridade.png)
+![Dashboard Paridade](assets/paridadee.png)
 
 ### 🚗 Simulador
 - Simulação de custo anual de frota com gasolina vs etanol
@@ -50,7 +50,7 @@ sobre preços de combustíveis, respondendo perguntas como:
 - Cards: Custo Anual Gasolina, Custo Anual Etanol, Custo KM utilizando Etanol e Custo KM utilizando Gasolina e KM rodado por frota
 - Filtros: Estado, Cidade, Ano
 
-![Dashboard Simulador](assets/dashboard-simulador.png)
+![Dashboard Simulador](assets/simulação.png)
 
 ---
 
